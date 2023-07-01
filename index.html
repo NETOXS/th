@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fique bem Thalitinha</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Apenas aprecie e seja feliz rodrigues(ou pelo menos tenta) S2</h1>
+        <h2>Se quiser pode colocar mais imagens tbm no upload :)</h2>
+        <h3>Sempre clica tres vezes no botao, pq o site ne, mal otimizado, pq nao tenho dinheiro, ficou muito ruim mas eu juro q tentei :(</h3>
+    </header>
+    <br><br><br><br>
+    <nav>
+    <form method="POST" action="upload.php" enctype="multipart/form-data">
+        <input type="file" name="image"  required>
+        <input type="submit" value="Upload">
+    </form>
+    </nav>
+    <br>
+    <main>
+        <button id="showRandomImage">Clica em mim por favor :)</button>
+        <button id="resetSquare">Zerar tudo</button>
+        <br><br>
+    </main>
+    <section>
+        <div id="imageContainer"></div>
+    </section>
+</body>
+</html>
